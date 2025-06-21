@@ -229,3 +229,9 @@ system-config-printer
 catos-fix-storage
 tela-icon-theme-git
 gparted
+
+xf86-video-amdgpu
+vulkan-radeon
+lib32-vulkan-radeon
+vulkan-intel
+lib32-vulkan-intel
