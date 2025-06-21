@@ -147,8 +147,8 @@ ttf-jetbrains-mono
 imagemagick
 #catos-aurorae
 #papirus-icon-theme
-catos-theme
-catos-theme2
+#catos-theme
+#catos-theme2
 #catos-plasmoids
 #catos-services
 #grub-theme-vimix-color-1080p-git
@@ -246,3 +246,10 @@ vulkan-radeon
 lib32-vulkan-radeon
 vulkan-intel
 lib32-vulkan-intel
+
+catos-branding
+catos-kde-settings
+catos-kde-theme
+eza
+ttf-jetbrains-mono-nerd
+fastfetch
