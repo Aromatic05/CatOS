@@ -29,7 +29,8 @@ echo ' ' >> /etc/pacman.conf
 echo '[archlinuxcn]' >> /etc/pacman.conf
 echo 'SigLevel = Never' >> /etc/pacman.conf
 echo 'Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch' >> /etc/pacman.conf
-
+echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch' >> /etc/pacman.conf
+echo 'Server = https://mirror.nju.edu.cn/archlinuxcn/$arch' >> /etc/pacman.conf
 
 ## -------------------------------------------------------------- ##
 
@@ -37,6 +38,8 @@ echo 'Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch' >> /etc/pacman.con
 echo '[arch4edu]' >> /etc/pacman.conf
 echo 'SigLevel = Never' >> /etc/pacman.conf
 echo 'Server = https://mirrors.cernet.edu.cn/arch4edu/$arch' >> /etc/pacman.conf
+echo 'Server = https://mirrors.tuna.tsinghua.edu.cn/arch4edu/$arch' >> /etc/pacman.conf
+echo 'Server = https://mirror.nju.edu.cn/arch4edu/$arch' >> /etc/pacman.conf
 
 ## -------------------------------------------------------------- ##
 
