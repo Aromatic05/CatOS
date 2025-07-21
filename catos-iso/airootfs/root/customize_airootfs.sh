@@ -21,6 +21,10 @@ echo "CatOS" > /etc/hostname
 ## -------------------------------------------------------------- ##
 
 ## -------------------------------------------------------------- ##
+## 修改pacman.conf
+echo 'Color' >> /etc/pacman.conf
+echo 'ILoveCandy' >> /etc/pacman.conf
+
 ### 开启multilib仓库支持
 echo '[multilib]' >> /etc/pacman.conf
 echo 'Include = /etc/pacman.d/mirrorlist' >> /etc/pacman.conf
