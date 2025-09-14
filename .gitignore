@@ -1,0 +1,3 @@
+*.iso
+catos-iso/airootfs/var/**
+catos-iso-for-nvidia/airootfs/var/**

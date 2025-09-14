@@ -65,7 +65,6 @@ fish
 flatpak
 fsarchiver
 fwupd
-gnu-netcat
 gpart
 gparted
 gpm
@@ -206,3 +205,4 @@ xfsprogs
 xl2tpd
 yay
 zsh
+chwd
