@@ -25,13 +25,15 @@ local _packages_to_remove=(
   syslinux
   clonezilla
   memtest86+
+  memtest86+-efi
   mkinitcpio-archiso
+  tcpdump
 )
 
   local _check_nvidia_card="$(chwd --is_nvidia_card | grep -q 'NVIDIA card found!'; echo $?)"
   if [[ "${_check_nvidia_card}" -ne 0 ]]; then
     echo "No NVIDIA card detected. Removing nvidia drivers"
-    _packages_to_remove+=(nvidia-utils egl-wayland)
+    _packages_to_remove+=(nvidia-module-extractor nvidia-utils egl-wayland)
     _files_to_remove+=(/usr/local/bin/nvidia-module-loader
                        /etc/modprobe.d/nvidia-loader.conf
                        )
