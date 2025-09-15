@@ -15,7 +15,7 @@ arch="x86_64"
 pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
 airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
-airootfs_image_tool_options=('-comp' 'zstd')
+# airootfs_image_tool_options=('-comp' 'zstd')
 file_permissions=(
   ["/etc/shadow"]="0:0:400"
   ["/root"]="0:0:750"
@@ -24,4 +24,6 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/usr/local/bin/nvidia-module-loader"]="0:0:755"
+  ["/usr/local/bin/remove-nvidia"]="0:0:755"
+  ["/usr/local/bin/removeun"]="0:0:755"
 )
