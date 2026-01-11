@@ -18,10 +18,10 @@ file_permissions=(
   ["/etc/shadow"]="0:0:400"
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
+  ["/etc/pacman.d/scripts/customize_airootfs.sh"]="0:0:755"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
-  ["/usr/local/bin/nvidia-module-loader"]="0:0:755"
   ["/usr/local/bin/remove-nvidia"]="0:0:755"
   ["/usr/local/bin/removeun"]="0:0:755"
 )
