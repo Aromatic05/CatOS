@@ -31,7 +31,7 @@ catos-shortcut
 catos-software-center
 catos-wallpaper-effects
 clonezilla
-corekeyboard
+#corekeyboard
 cryptsetup
 darkhttpd
 ddrescue
@@ -126,7 +126,6 @@ nmap
 noto-fonts-emoji
 ntfs-3g
 nvme-cli
-ocs-url
 octopi
 okular
 openconnect
@@ -140,7 +139,7 @@ parted
 partimage
 pcsclite
 plasma
-plasma6-applets-panel-colorizer
+#plasma6-applets-panel-colorizer
 podman
 power-profiles-daemon
 ppp
