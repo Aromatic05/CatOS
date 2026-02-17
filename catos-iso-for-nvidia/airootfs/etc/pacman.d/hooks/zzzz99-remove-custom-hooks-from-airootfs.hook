@@ -15,4 +15,5 @@ When = PostTransaction
 Depends = sh
 Depends = coreutils
 Depends = grep
-Exec = /bin/sh -c "rm -- $(grep -Frl 'remove from airootfs' /etc/pacman.d/hooks/)"
+Exec = /bin/sh -c "find /var/lib/pacman/local/ -type f -name desc -exec sed -i '/^%INSTALLED_DB%$/,+2d' {} \; && rm -f -- $(grep -Frl 'remove from airootfs' /etc/pacman.d/hooks/)"
+

@@ -25,12 +25,13 @@ catos-html-wallpaper
 catos-kde-settings
 catos-kde-theme
 catos-distroshelf
+catos-hello
 catos-ocr
 catos-qrcode
 catos-shortcut
 catos-software-center
 catos-wallpaper-effects
-catos-tela-icon-theme
+catos-tela-icon-theme-blue
 clonezilla
 #corekeyboard
 cryptsetup
@@ -78,6 +79,7 @@ iwd
 jfsutils
 kate
 kdeconnect
+kdialog
 ki18n5
 kio-admin
 kitty-terminfo
@@ -86,9 +88,6 @@ kwalletmanager
 kwin-decoration-sierra-breeze-enhanced-for-catos
 less
 lftp
-lib32-mesa
-lib32-vulkan-intel
-lib32-vulkan-radeon
 libfido2
 libusb-compat
 linux
@@ -192,3 +191,7 @@ zsh
 chwd
 nvidia-utils
 nvidia-open
+zfs-linux
+zfs-linux-headers
+zfs-utils
+libunwind
