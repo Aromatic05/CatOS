@@ -25,6 +25,7 @@ catos-html-wallpaper
 catos-kde-settings
 catos-kde-theme
 catos-distroshelf
+catos-hello
 catos-ocr
 catos-qrcode
 catos-shortcut
@@ -190,3 +191,7 @@ zsh
 chwd
 #nvidia-utils
 #nvidia-open
+zfs-linux
+zfs-linux-headers
+zfs-utils
+libunwind
